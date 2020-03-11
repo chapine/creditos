@@ -1,0 +1,169 @@
+b/*
+navbar-default personalizada en:
+http://work.smarchal.com/twbscolor/
+
+*/
+.lbl {
+  display: inline;
+  padding: .2em .6em .3em;
+  font-size: 75%;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+}
+
+.lbl-oro {
+  background-color: #D4AF37;
+}
+
+.lbl-plata {
+  background-color: #e3e4e5;
+  color: dimgray;
+}
+
+.lbl-bronce {
+  background-color: #CD7F32;
+}
+
+.dt-print-view h1{text-align: center; width: 100%}
+
+.tt-hint,
+.buscar,
+.buscarcodigo,
+.buscarcodigobarra,
+.proveedor
+{
+	width: 760px;
+	/*font-size: 24px;
+	height: 45px;*/
+	line-height: 15px;
+	outline: medium none;
+	padding: 8px 12px;
+}
+
+.tt-dropdown-menu {
+	width: 100% !important;
+	margin-top: 5px;
+	padding: 8px 12px;
+	border: 1px solid #ccc;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 8px 8px 8px 8px;
+	font-size: 18px;
+	color: #111;
+	background-color: #F1F1F1;
+}
+
+table{
+	font-size: 14px !important;
+}
+
+.table-hover > tbody > tr:hover {
+  background-color: #D7D7D7;
+}
+
+
+@media (min-width: 1500px) {
+  .col-sm-3 {
+      float: left;
+	  width: 50%;
+	  /*border:#000 1px solid;*/
+  }
+  .col-sm-6{
+    float: right;
+    width: 250px;
+	/*border:#000 1px solid;*/
+  }
+	
+	.col-sm-50 {width: 100%; text-align: center;}
+
+	div.dataTables_wrapper div.dataTables_filter input{width: 90% !important; font-size: 20px; height: 40px;}
+	div.dataTables_wrapper div.dataTables_filter label {text-align: center !important; width: 100%; padding: 15px 0px 5px 0px;}
+}
+
+
+
+a:link, a:visited, a:hover, a:active{
+	text-decoration: none !important;
+}
+
+button{
+	outline: none !important;
+}
+
+.otro{
+	width: 250px;
+}
+
+.navbar-default {
+  background-color: #3498db;
+  border-color: #2980b9;
+}
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ecdbff;
+}
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ecdbff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ecdbff;
+  background-color: #2980b9;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ecdbff;
+  background-color: #2980b9;
+}
+.navbar-default .navbar-toggle {
+  border-color: #2980b9;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #2980b9;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+  color: #ecdbff;
+}
+
+@media (max-width: 1500px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #333333;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #262626;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #333333;
+    background-color: #2980b9;
+  }
+}	

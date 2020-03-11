@@ -1,0 +1,234 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	margin-bottom: 90px; /* Margin bottom by footer height */
+}
+
+.navegar_secciones{
+	padding-bottom:20px;
+	margin-right: 15px;
+}
+
+.footer {
+	border-top: 1px solid #cccccc;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 40px; /* Set the fixed height of the footer here */
+	line-height: 40px; /* Vertically center the text there */
+	background-color: #f5f5f5;
+}
+
+
+.textoarea{
+	min-width: 100%;
+	max-width: 100%;
+	min-height: 80px;
+	max-height: 80px;
+}
+
+form .counter{
+	position:absolute;
+	right:10px;
+	top:5px;
+	font-size:20px;
+	font-weight:bold;
+	color:#ccc;
+	}
+form .warning{color:#600;}	
+form .exceeded{color:#e00;}	
+
+.ajustar1{
+	border: 1px solid #ddd;
+	padding: 11.5px;
+	text-align: right;
+}
+
+.ajustar2{
+	border: 1px solid #ddd;
+	padding: 7px;
+}
+
+.ajustar3{
+	padding: 7px;
+}
+
+.ajustar4{
+	border: 1px solid #ddd;
+	padding: 11.5px;
+}
+
+.ajustar5{
+	padding: 11.5px 0 11.5px 0;
+}
+
+
+a.disabled {
+  /* Make the disabled links grayish*/
+  color: gray;
+  /* And disable the pointer events */
+  pointer-events: none;
+}
+
+.modal-header-warning {
+	color:#fff;
+	padding:0 15px 7px;
+	border-bottom:1px solid #eee;
+	background-color: #f0ad4e;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	 border-top-left-radius: 5px;
+	 border-top-right-radius: 5px;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+	border-radius: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1; 
+	border-radius: 4px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #888; 
+	border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555; 
+	border-radius: 4px;
+}
+
+	
+@media screen and (max-width: 695px){
+	.navegar_secciones{
+		display: none;
+	}
+}
+
+
+
+
+.progress-title{
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+	text-align: center;
+	padding: 10px 0 10px;
+	margin-top: 5px;
+}
+.progress{
+    height: 10px;
+    background: #e9e9ea;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    overflow: visible;
+    position: relative;
+}
+.progress:before,
+.progress:after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    top: -5px;
+    left: 0;
+    z-index: 1;
+}
+.progress:after{
+    border: 7px solid #e9e9ea;
+    left: auto;
+    right: 0;
+}
+.progress .progress-bar{
+    box-shadow: none;
+    border: none;
+    border-radius: 15px;
+    position: relative;
+    -webkit-animation: animate-positive 1s;
+    animation: animate-positive 1s;
+}
+.progress .progress-value{
+    width: 70px;
+    height: 35px;
+    line-height: 27px;
+    border-radius: 20px;
+    background: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    position: absolute;
+    top: -12px;
+    right: 0;
+    z-index: 2;
+}
+.progress.orange:before{ border: 7px solid #fe3b3b; }
+.progress.blue:before{ border: 7px solid #1a4966; }
+.progress.green:before{ border: 7px solid #53aa2c; }
+.progress.purple:before{ border: 7px solid #66406f; }
+.progress.orange .progress-value{
+    border: 5px solid #fe3b3b;
+    color: #fe3b3b;
+}
+.progress.blue .progress-value{
+    border: 5px solid #1a4966;
+    color: #1a4966;
+}
+.progress.green .progress-value{
+    border: 5px solid #53aa2c;
+    color: #53aa2c;
+}
+.progress.purple .progress-value{
+    border: 5px solid #66406f;
+    color: #66406f;
+}
+@-webkit-keyframes animate-positive{
+    0%{ width: 0; }
+}
+@keyframes animate-positive{
+    0%{ width: 0; }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Centrar modal vertical */
+	.modal {
+	  text-align: center;
+	}
+
+	@media screen and (min-width: 768px) { 
+	  .modal:before {
+		display: inline-block;
+		vertical-align: middle;
+		content: " ";
+		height: 100%;
+	  }
+	}
+
+	.modal-dialog {
+	  display: inline-block;
+	  text-align: left;
+	  vertical-align: middle;
+	}
